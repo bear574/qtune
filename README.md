@@ -30,7 +30,7 @@
 
 ### Вариант 1: Готовый установщик (рекомендуется)
 
-1. Скачай `Qtune_Setup.exe` из раздела [Releases](https://github.com/yourusername/qtune/releases).
+1. Скачай `Qtune_Setup.exe` из раздела [Releases](https://github.com/bear574/qtune/releases).
 2. Запусти установщик. Права администратора **не требуются** — установка идёт в папку пользователя.
 3. По желанию отметь галочки «Создать ярлык на рабочем столе» и «Запускать при старте Windows».
 4. Готово! Запускай Qtune из меню «Пуск» или с рабочего стола.
@@ -39,13 +39,13 @@
 
 ### Вариант 2: Портативная версия
 
-1. Скачай архив `Qtune_Portable.zip` из [Releases](https://github.com/yourusername/qtune/releases).
+1. Скачай архив `Qtune_Portable.zip` из [Releases](https://github.com/bear574/qtune/releases/download/V.1/Qtune_Setup.exe).
 2. Распакуй в любую папку (например, на флешку).
 3. Запусти `Qtune.exe` из распакованной папки.
 
 ---
 
-## 🛠️ Сборка из исходников (для разработчиков)
+## 🛠️ Сборка из исходников (для разработчиков)(Пока нет)
 
 ### Требования
 
@@ -53,4 +53,19 @@
 - Python 3.10 или новее
 - [Inno Setup 6](https://jrsoftware.org/isdl.php) (только для сборки установщика)
 
+### Шаги
 
+```bash
+# 1. Клонируй репозиторий
+git clone No
+cd qtune
+
+# 2. Создай виртуальное окружение
+python -m venv .venv
+.venv\Scripts\activate
+
+# 3. Установи зависимости
+python -m pip install -r requirements.txt
+
+# 4. Запусти в режиме разработки
+python run.py
