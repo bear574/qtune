@@ -39,7 +39,7 @@
 
 ### Вариант 2: Портативная версия
 
-1. Скачай архив `Qtune_Portable.zip` из [Releases](https://github.com/bear574/qtune/releases/download/V.1/Qtune_Setup.exe).
+1. Скачай архив `Qtune_Portable.zip` из [Releases](https://github.com/bear574/qtune/archive/refs/tags/V.1.zip).
 2. Распакуй в любую папку (например, на флешку).
 3. Запусти `Qtune.exe` из распакованной папки.
 
