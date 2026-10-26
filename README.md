@@ -53,19 +53,4 @@
 - Python 3.10 или новее
 - [Inno Setup 6](https://jrsoftware.org/isdl.php) (только для сборки установщика)
 
-### Шаги
 
-```bash
-# 1. Клонируй репозиторий
-git clone https://github.com/yourusername/qtune.git
-cd qtune
-
-# 2. Создай виртуальное окружение
-python -m venv .venv
-.venv\Scripts\activate
-
-# 3. Установи зависимости
-python -m pip install -r requirements.txt
-
-# 4. Запусти в режиме разработки
-python run.py
